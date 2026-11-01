@@ -1,0 +1,18 @@
+# Segredos (ver .claude/rules/security.md)
+.env
+.env.*
+!.env.example
+
+# Dependências e builds
+node_modules/
+dist/
+build/
+coverage/
+
+# Configurações locais do Claude Code
+.claude/settings.local.json
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+*.swp
